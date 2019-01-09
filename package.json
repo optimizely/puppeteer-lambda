@@ -4,14 +4,14 @@
   "description": "run puppeteer in lambda",
   "main": "src/index.js",
   "dependencies": {
+    "puppeteer": "github:optimizely/puppeteer#web-perf-runner",
+    "tar": "^4.3.0"
+  },
+  "devDependencies": {
     "aws-sdk": "^2.185.0",
     "babel-runtime": "^6.26.0",
     "bluebird": "^3.5.1",
     "download": "^6.2.5",
-    "puppeteer": "^1.2.0",
-    "tar": "^4.3.0"
-  },
-  "devDependencies": {
     "babel-core": "^6.24.1",
     "babel-loader": "^7.0.0",
     "babel-plugin-transform-runtime": "^6.23.0",
@@ -29,7 +29,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shawnLiujianwei/puppeteer-lambda.git"
+    "url": "git+https://github.com/optimizely/puppeteer-lambda.git"
   },
   "keywords": [
     "Puppeteer",

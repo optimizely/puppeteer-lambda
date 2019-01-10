@@ -5,12 +5,12 @@
   "main": "src/index.js",
   "dependencies": {
     "puppeteer": "github:optimizely/puppeteer#web-perf-runner",
+    "bluebird": "^3.5.1",
     "tar": "^4.3.0"
   },
   "devDependencies": {
     "aws-sdk": "^2.185.0",
     "babel-runtime": "^6.26.0",
-    "bluebird": "^3.5.1",
     "download": "^6.2.5",
     "babel-core": "^6.24.1",
     "babel-loader": "^7.0.0",
